@@ -1,0 +1,49 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="AutotauschApp.person"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+ xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+  
+    <!--LayoutRoot enthält das Stammraster, in dem alle anderen Seiteninhalte platziert werden-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Personalien">
+
+            <!--Panoramaelement eins-->
+            <controls:PanoramaItem>
+                <ScrollViewer>
+                    <StackPanel Margin="0,20,0,17">
+                        <TextBlock Text="Personalien" Style="{StaticResource Subheader}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="Frau" Style="{StaticResource ListBlank}"></TextBlock>
+                            <TextBlock Text="Herr" Style="{StaticResource ListBlank}"></TextBlock>
+                        </toolkit:ListPicker>
+                        <TextBox Text="Name:" Style="{StaticResource TextBoxBlank}" />
+                        <TextBox Text="Vorname:" Style="{StaticResource TextBoxBlank}"/>
+                        <TextBox Text="Straße:" Style="{StaticResource TextBoxBlank}"/>
+                        <TextBox Text="PLZ|Ort:" Style="{StaticResource TextBoxBlank}"/>
+                        <TextBox Text="Telefonnummer:" Style="{StaticResource TextBoxBlank}"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+
+            <!--Panoramaelement zwei-->
+            <controls:PanoramaItem>
+                <Grid/>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panoramaanwendungen sollten keine ApplicationBar anzeigen.-->
+
+</phone:PhoneApplicationPage>

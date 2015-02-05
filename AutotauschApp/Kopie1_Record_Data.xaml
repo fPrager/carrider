@@ -1,0 +1,76 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="AutotauschApp.kopie1_record_data"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+    <!--LayoutRoot enthält das Stammraster, in dem alle anderen Seiteninhalte platziert werden-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Daten">
+
+            <!--Panoramaelement eins-->
+            <controls:PanoramaItem Header="Daten">
+                <StackPanel Margin="0,-40,0,17">
+                    <TextBlock Text="Personalien" TextWrapping="Wrap" Style="{StaticResource TextBlockSubheader}"/>
+                    <TextBlock Text="Hubert Müller" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="Liebstädter Strasse 5" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="01277 Dresden" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="0351/42010" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="Notizen" TextWrapping="Wrap" Style="{StaticResource TextBlockInfoNote}"/>
+
+                    <TextBlock Text="Auto" TextWrapping="Wrap" Style="{StaticResource TextBlockSubheader}"/>
+                    <TextBlock Text="VolvoS80" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="DD FN-2011" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="123456789ABC" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="10/2011" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="3 Sclüssel" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="Notiz" TextWrapping="Wrap" Style="{StaticResource TextBlockInfoNote}"/>
+
+                    <TextBlock Text="Übergabe" TextWrapping="Wrap" Style="{StaticResource TextBlockSubheader}"/>
+                    <TextBlock Text="5 Jan 2012 " TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="13:00 Uhr" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="Notiz" TextWrapping="Wrap" Style="{StaticResource TextBlockInfoNote}"/>
+
+                </StackPanel>
+            </controls:PanoramaItem>
+            <!--Panoramaelement zwei-->
+            <controls:PanoramaItem Header="Ziel">
+                <StackPanel Margin="0,-40,0,17">
+                    <TextBlock Text="" Style="{StaticResource TextBlockEmptyLine}" />
+                    <TextBlock Text="Ingo Steinbaumeister" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="Schönefelder Straße 21a" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="04129 Leipzig" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="0341/919910" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="5 Jan 12" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="16:00 Uhr" TextWrapping="Wrap" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="Überführung" TextWrapping="Wrap" Style="{StaticResource TextBlockInfoNote}"/>
+
+
+                </StackPanel>
+            </controls:PanoramaItem>
+
+            <!--Panoramaelement drei-->
+            <controls:PanoramaItem Header="Übergabe">
+                <StackPanel Margin="0,-40,0,17">
+                    <TextBlock Text="Besondere Bedingungen" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                    <TextBlock Text="dunkel" Style="{StaticResource TextBlockNoteOverview}"/>
+                    <TextBlock Text="Regen" Style="{StaticResource TextBlockNoteOverview}"/>
+                   
+                </StackPanel>
+            </controls:PanoramaItem>
+            
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panoramaanwendungen sollten keine ApplicationBar anzeigen.-->
+
+</phone:PhoneApplicationPage>

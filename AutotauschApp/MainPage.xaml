@@ -1,0 +1,133 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AutotauschApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:wpControls="clr-namespace:WPControls;assembly=WPControls"
+    xmlns:local="clr-namespace:AutotauschApp"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768" 
+    d:DataContext="{d:DesignData Inhalte/MainViewModelArchivData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+    <!--Der Datenkontext wird auf die Beispieldaten (oben) festgelegt. LayoutRoot enthält das Stammraster, in dem alle anderen Seiteninhalte platziert werden-->
+    <phone:PhoneApplicationPage.Resources>
+    </phone:PhoneApplicationPage.Resources>
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideDownFadeIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideDownFadeIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideUpFadeOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideUpFadeOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    <Grid x:Name="LayoutRoot" Background="Transparent" Grid.Row="2">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Canvas Name="Pages" Height="50" Width="480" VerticalAlignment="Top">
+        </Canvas>
+        <controls:Pivot Name="app_overview" Height="700" VerticalAlignment="Top" HorizontalAlignment="Left" Width="480" Margin="0,40,0,0">
+            <controls:PivotItem Header="Archiv" Name="archive">
+              <StackPanel Margin="0,0,0,17" Width="450">
+                    <TextBlock Text="erledigte Aufträge" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                    <TextBlock Text="Keine Einträge" Style="{StaticResource Fact}"/>
+                    <TextBlock Text="Liste der bereits geleisteten Aufträge" Style="{StaticResource Note}"/>
+                    
+                    <TextBlock Text="abgelehnte Aufträge" TextWrapping="Wrap"  Style="{StaticResource Subheader}"/>
+                    <TextBlock Text="Keine Einträge" Style="{StaticResource Fact}"/>
+                    <TextBlock Text="Auflistung der unangenommmene Überfahrten" Style="{StaticResource Note}"/>
+                    
+                </StackPanel>
+           </controls:PivotItem>
+            <controls:PivotItem Margin="0,20,0,0" Header="Aktuell" Name="recent_order">
+                <toolkit:GestureService.GestureListener>
+                    <toolkit:GestureListener PinchDelta="ZoomIn" DoubleTap="ZoomInTap"/>
+                </toolkit:GestureService.GestureListener>
+                   <StackPanel Margin="0,0,0,17">
+                    <TextBlock Text="AUe123456" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                    <TextBlock Text="Status: offen"  Foreground="{StaticResource PhoneAccentBrush}" Style="{StaticResource OverviewEdit}"/>
+                    <TextBlock Text="26.Januar 2012 - 14:30Uhr" Style="{StaticResource Fact}"/>
+                    <TextBlock Text="Fahrstrecke: 130 km" Style="{StaticResource OverviewEdit}"/>
+                    <TextBlock Text="Gesamtzeit: 1 Stunden 30 Minuten" Style="{StaticResource OverviewEdit}"/>
+                    <TextBlock Text="" Style="{StaticResource EmptyLine}"/> 
+                    <TextBlock Text="Neuwagenüberführung von" Style="{StaticResource Fact}"/>
+                    <TextBlock Text="Dresden - Sachsengarage" Style="{StaticResource OverviewEdit}"/>
+                    <TextBlock Text="Herr Hubert Müller" Style="{StaticResource OverviewEdit}"/>
+                    <TextBlock Text="nach" Style="{StaticResource Fact}"/>
+                    <TextBlock Text="Leipzig - VolvoCenter" Style="{StaticResource OverviewEdit}"/>
+                    <TextBlock Text="Herr Ingo Steinbaumeister" Style="{StaticResource OverviewEdit}"/>
+                    <TextBlock Text="" Style="{StaticResource EmptyLine}"/>
+                    <TextBlock Text="Autotyp | Marke" Style="{StaticResource Fact}"/>
+                    <TextBlock Text="Volvo S80" Style="{StaticResource OverviewEdit}"/>
+                    </StackPanel>
+            </controls:PivotItem>
+            <controls:PivotItem Margin="0,20,0,0" Header="Kommend" Name="comming_order">
+                <ScrollViewer>
+                    <StackPanel Margin="0,0,0,17">
+                    <TextBlock Text="AUe258671" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="07.Februar 2012 - 8:30Uhr" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Dresden - München" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="BMW X5M S" Style="{StaticResource OverviewEdit}"/>
+
+                    <TextBlock Text="AUe245769" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="12.Februar 2012 - 19:30Uhr" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="München - Dresden" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="BMW ActiveHybrid X6" Style="{StaticResource OverviewEdit}"/>
+
+                    <TextBlock Text="AUe998665" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="13.Februar 2012 - 14:30Uhr" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Dresden - Hannover" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Volvo V70" Style="{StaticResource OverviewEdit}"/>
+
+                    <TextBlock Text="AUe99865" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="Dresden - Hannover" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="20.Februar 2012 - 14:30Uhr" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Volvo V70" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                </StackPanel>
+                </ScrollViewer>
+            </controls:PivotItem>
+                <controls:PivotItem Margin="20,20,0,0" Header="Kalender" Name="timetable">
+                <wpControls:Calendar 
+                x:Name="Cal"
+                MonthChanged="Cal_MonthChanged"
+                MonthChanging="Cal_MonthChanging"
+                EnableGestures="false"
+                />
+                </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+ 
+    <!--Beispielcode für die Verwendung von ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Schaltfläche 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Schaltfläche 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="Menüelement 1"/>
+                <shell:ApplicationBarMenuItem Text="Menüelement 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

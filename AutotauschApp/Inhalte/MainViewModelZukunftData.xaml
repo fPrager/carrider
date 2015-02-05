@@ -1,0 +1,14 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AutotauschApp" 
+    SampleProperty="Beispielwert für die Texteigenschaft">
+    
+    <local:MainViewModel.Items>
+        <local:ItemViewModel LineOne="Auftragsname" LineTwo="Überführung von Dresden nach München" LineThree="BMW - Schulz" />
+        <local:ItemViewModel LineOne="Auftragsname" LineTwo="Urlaubsservice von Leipzig nach Hannover" LineThree="Mercedes - Müller" />
+        <local:ItemViewModel LineOne="Auftragsname" LineTwo="Überführung von Dresden nach Leipzeig" LineThree="Volvo - Schmidt" />
+    </local:MainViewModel.Items>
+
+    
+</local:MainViewModel>

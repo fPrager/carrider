@@ -1,0 +1,461 @@
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\ApplicationIcon.png
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\Background.png
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.pdb
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\AppManifest.xaml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.xap
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\obj\Debug\ResolveAssemblyReference.cache
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\obj\Debug\App.g.i.cs
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\obj\Debug\DetailsPage.g.i.cs
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\obj\Debug\MainPage.g.i.cs
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.g.resources
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.pdb
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\obj\Debug\XapCacheFile.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\App.g.i.cs
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\DetailsPage.g.i.cs
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\MainPage.g.i.cs
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\Order.g.i.cs
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.g.resources
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ApplicationIcon.png
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Background.png
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.pdb
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\AppManifest.xaml
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.xap
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.pdb
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\obj\Debug\XapCacheFile.xml
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\System.Windows.Controls.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\WPControls.dll
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\WPControls.pdb
+C:\Users\User\Dropbox\KP_MG_mobileERP\AutotauschApp\AutotauschApp\Bin\Debug\WPControls.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\ResolveAssemblyReference.cache
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\App.g.i.cs
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\DetailsPage.g.i.cs
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\MainPage.g.i.cs
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\Order.g.i.cs
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.g.resources
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\AutotauschApp.pdb
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ApplicationIcon.png
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Background.png
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.pdb
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\AppManifest.xaml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\AutotauschApp.xap
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Expression.Interactions.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\System.Windows.Interactivity.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\WPControls.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\WPControls.pdb
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\WPControls.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Expression.Interactions.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\System.Windows.Interactivity.xml
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ar\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\bg\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ca\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\cs\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\da\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\de\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\el\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\es\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\et\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\eu\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\fi\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\fr\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\he\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\hr\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\hu\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\id\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\it\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ja\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ko\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\lt\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\lv\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ms\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\nl\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\no\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\pl\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\pt\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ro\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ru\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\sk\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\sl\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\sv\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\th\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\tr\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\uk\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\vi\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\Uni\KP Interatkionsdesign\AutotauschApp\AutotauschApp\obj\Debug\XapCacheFile.xml
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\App.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\DetailsPage.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\MainPage.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\Order.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\AutotauschApp.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\AutotauschApp.pdb
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ApplicationIcon.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Background.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AutotauschApp.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AutotauschApp.pdb
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppManifest.xaml
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AutotauschApp.xap
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\WPControls.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\WPControls.pdb
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\WPControls.xml
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\AutotauschApp.g.resources
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\XapCacheFile.xml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ApplicationIcon.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Background.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.add.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.back.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.basecircle.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.cancel.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.check.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.close.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.delete.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.down.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.download.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.edit.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.favs.addto.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.favs.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.camera.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.email.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.search.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.settings.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.video.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.folder.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.minus.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.new.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.next.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.overflowdots.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.questionmark.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.refresh.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.save.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.share.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.stop.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.sync.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.transport.ff.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.transport.pause.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.transport.play.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.transport.rew.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.up.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppBarIcons\appbar.upload.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AutotauschApp.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AutotauschApp.pdb
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AppManifest.xaml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\AutotauschApp.xap
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\System.Windows.Interactivity.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\WPControls.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\WPControls.pdb
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\WPControls.xml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.xml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\System.Windows.Interactivity.xml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ar\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\bg\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ca\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\cs\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\da\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\de\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\el\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\es\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\et\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\eu\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\fi\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\fr\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\he\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\hr\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\hu\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\id\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\it\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ja\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ko\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\lt\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\lv\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ms\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\nl\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\no\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\pl\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\pt\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ro\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ru\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\sk\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\sl\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\sv\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\th\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\tr\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\uk\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\vi\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\App.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\DetailsPage.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\MainPage.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\Order.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\Record_data.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\AutotauschApp.g.resources
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\AutotauschApp.dll
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\AutotauschApp.pdb
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\XapCacheFile.xml
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\Record_Person.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\Record_State.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\FormPage.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\Kopie1_Record_Data.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\Record_Data.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\Record_Person.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\obj\Debug\Record_State.g.i.cs
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.add.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.back.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.basecircle.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.cancel.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.check.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.close.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.delete.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.down.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.download.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.edit.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.favs.addto.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.favs.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.camera.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.email.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.search.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.settings.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.feature.video.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.folder.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.minus.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.new.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.next.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.overflowdots.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.questionmark.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.refresh.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.save.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.share.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.stop.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.sync.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.transport.ff.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.transport.pause.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.transport.play.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.transport.rew.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.up.rest.png
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\AutotauschApp\Bin\Debug\AppBarIcons\appbar.upload.rest.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Order01234.xml
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\PhotoFrontTemplate.jpg
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\Kopie1_Record_Data.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\Damage.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\CarScheme\BackRight.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\CarScheme\FrontLeft.png
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\Record_Crash.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\SignumPage.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\PhotoBackTemplate.jpg
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\PhotoLeftTemplate.jpg
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\PhotoRightTemplate.jpg
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Icons\icon.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\Icons\iconkachel.png
+D:\Studium\WS11\VizKP\AutotauschApp\Bin\Debug\SplashScreenImage.jpg
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\EditPage.g.i.cs
+D:\Studium\WS11\VizKP\AutotauschApp\obj\Debug\SignPage.g.i.cs

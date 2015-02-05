@@ -1,0 +1,338 @@
+﻿<Application 
+    x:Class="AutotauschApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+>
+    <!--Anwendungsressourcen-->
+    <Application.Resources>
+        
+        <!--TEXT BLOCKS-->
+        <!--Styles für Überschriften-->
+        <Style x:Key="Header" TargetType="TextBlock" BasedOn="{StaticResource PhoneTextTitle1Style}">
+        </Style>
+        
+        <!-- Style für die ZwischenÜberschriften-->
+        <!--in Systemfarbe und Größe 35-->
+        <Style x:Key="Subheader" TargetType="TextBlock" BasedOn="{StaticResource PhoneTextAccentStyle}">
+            <Setter Property="Margin" Value="15,15,10,0"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="35"/>
+        </Style>
+
+        <!--Style für die Übersichtsauflistung-->
+        <!--weiß; Größe 20 und am Rand ausgerichtet)-->
+        <Style x:Key="Fact" TargetType="TextBlock" BasedOn="{StaticResource PhoneTextNormalStyle}">
+           <Setter Property="Margin" Value="15,0,0,0"/>
+        </Style>
+        
+        <!--Style für die Übersichtsauflistung gesetzt-->
+        <!--weiß; Größe 20 und eingerückt)-->
+        <Style x:Key="OverviewEdit" TargetType="TextBlock" BasedOn="{StaticResource Fact}">
+            <Setter Property="Margin" Value="50,0,0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        
+        <!--Style für die Übersichtsauflistung ausgegraut-->
+        <!--Inhalte innerhalb von Auflistungen ausgefüllt immer weiß-->
+        <Style x:Key="OverviewBlank" TargetType="TextBlock" BasedOn="{StaticResource OverviewEdit}">
+            <Setter Property="Foreground" Value="Gray"/>
+        </Style>
+
+        <!--Style für die Übersichtsauflistung -->
+        <!--Schadens-Anzeige: Innere ZeichenFläche-->
+        <Style x:Key="OverviewDamageCanvas" TargetType="Canvas">
+            <Setter Property="Width" Value="350"></Setter>
+            <Setter Property="Height" Value="262.5"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <!--Schadens-Anzeige: Schadensmarkierungen-->
+        <Style x:Key="OverviewDamagePoint" TargetType="Ellipse">
+            <Setter Property="Width" Value="40"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Fill" Value="{StaticResource PhoneAccentBrush}"></Setter>
+            <Setter Property="Opacity" Value="0.8"></Setter>
+        </Style>
+
+        <!--Schadens-Anzeige: Weißer Hintergrund der Schadensauflistung-->
+        <Style x:Key="OverviewDamageBorder" TargetType="Border">
+            <Setter Property="Width" Value="350"></Setter>
+            <Setter Property="Height" Value="262.5"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="Margin" Value="20,20,10,0"/>
+        </Style>
+
+        <!--Style für eine Leerzeile-->
+        <Style x:Key="EmptyLine" TargetType="TextBlock" BasedOn="{StaticResource Fact}">
+            <Setter Property="Margin" Value="0,30,0,0"/>
+        </Style>
+        <!--Style für Notizen-->
+        <!-- zusätzliche Information, Rechtsbündig und weiß, als Abschluss für Textblock-->
+        <Style x:Key="Note" TargetType="TextBlock" BasedOn="{StaticResource PhoneTextSmallStyle}">
+            <Setter Property="Margin" Value="0,10,10,10"/>
+            <Setter Property="TextAlignment" Value="Right"/>
+        </Style>
+        
+        <!--Style für Kostenbeträge-->
+        <Style x:Key="cost" TargetType="TextBlock" BasedOn="{StaticResource Fact}">
+            <Setter Property="Margin" Value="0,-24,40,0"/>
+            <Setter Property="TextAlignment" Value="Right"/>
+        </Style>
+        
+        <!--Navigationselemente oben-->
+        <!-- Style für die laufende Nummer-->
+        <Style x:Key="Number" TargetType="TextBlock" BasedOn="{StaticResource PhoneTextSmallStyle}">
+            <Setter Property="Margin" Value="20,5,0,0"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+        
+        <!-- Style für den Zeitstrahl nach links-->
+        <Style x:Key="Prev" TargetType="TextBlock" BasedOn="{StaticResource PhoneTextSmallStyle}">
+            <Setter Property="Margin" Value="20,0,0,0"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+        
+        <!-- Style für den Zeitstrahl nach rechts-->
+        <Style x:Key="Next" TargetType="TextBlock" BasedOn="{StaticResource Note}">
+            <Setter Property="Margin" Value="408,-20,0,0"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+        
+        <!--Bildbeschriftung-->
+        <Style x:Key="Image" TargetType="TextBlock" BasedOn="{StaticResource Fact}">
+            <Setter Property="Margin" Value="0,5,0,0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+
+        <!--******************************************************************************-->
+        <!--BUTTON-->
+        <!-- PhotoStyle-->
+        <Style x:Key="PhotoBlank" TargetType="Button">
+            <Setter Property="Width" Value="350"></Setter>
+            <Setter Property="Height" Value="262.5"></Setter>
+            <Setter Property="Margin" Value="20,20,10,0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+        </Style>
+        <Style x:Key="PhotoSelected" TargetType="Button"  BasedOn="{StaticResource PhotoBlank}">
+        </Style>
+        <Style x:Key="PhotoEdited" TargetType="Button"  BasedOn="{StaticResource PhotoBlank}">
+        </Style>
+
+        <Style x:Key="OverviewPhoto" TargetType="Button"  BasedOn="{StaticResource PhotoBlank}">
+
+        </Style>
+        <!--******************************************************************************-->
+        <!--CHECK BOXES-->
+        <!--Check-Box Beschriftungen unausgewählt grau-->
+        <Style x:Key="CheckBoxBlank" TargetType="CheckBox">
+            <Setter Property="Margin" Value="5,0,0,-25"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+        </Style>
+        <!--Check-Box Beschriftungen ausgewählt weiß-->
+        <Style x:Key="CheckBoxEdited" TargetType="CheckBox">
+            <Setter Property="Margin" Value="5,0,0,-25"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+<!--******************************************************************************-->
+        <!--LIST PICKER-->
+        <!--ListPicker Textblock STYLE-->
+        <Style x:Key="ListBlank" TargetType="TextBlock">
+            <Setter Property="Margin" Value="20,10,40,-10"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Height" Value="60"/>
+        </Style>
+        <Style x:Key="ListEdited" TargetType="TextBlock">
+            <Setter Property="Margin" Value="0,0,0,0"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Height" Value="25"/>
+        </Style>
+        <Style x:Key="ListSelected" TargetType="TextBlock">
+            <Setter Property="Margin" Value="10,10,40,-10"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Height" Value="60"/>
+        </Style>
+        <Style x:Key="ListFact" TargetType="TextBlock">
+            <Setter Property="Margin" Value="10,5,0,0"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="25"/>
+        </Style>
+        <!--ListPicker Style-->
+        <Style x:Key="StupidListPickerEdited" TargetType="toolkit:ListPicker">
+            <Setter Property="Margin" Value="10,5,-5,0"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+        </Style>
+        <!--ListPicker Style-->
+        <Style x:Key="StupidListPickerBlank" TargetType="toolkit:ListPicker">
+            <Setter Property="Margin" Value="10,5,0,0"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+        </Style>
+        <Style x:Key="ListPickerEdited" TargetType="StackPanel">
+            <Setter Property="Margin" Value="50,10,0,10"/>
+            <Setter Property="Background" Value="Black"/>
+        </Style>
+
+        <!--ListPicker Style-->
+        <Style x:Key="ListPickerBlank" TargetType="StackPanel">
+            <Setter Property="Margin" Value="50,0,0,0"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+        <Style x:Key="ListPickerSelected" TargetType="StackPanel" BasedOn="{StaticResource ListPickerBlank}">
+
+        </Style>
+
+        <!--******************************************************************************-->
+        <!--TEXT BOXES-->
+        <!--Fakten Notiz innerhalb der TextBox-->
+        <Style x:Key="TextBoxDisable" TargetType="TextBox">
+            <Setter Property="Margin" Value="5,15,0,0"/>
+            <Setter Property="FontFamily" Value="Segoe WP Semibold"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Gray" />
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+        </Style>
+        <Style x:Key="TextBoxBlank" TargetType="TextBox">
+            <Setter Property="Margin" Value="5,5,20,0"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="10,5,0,0"/>
+            <Setter Property="Height" Value="70"/>
+            <Setter Property="Width" Value="430" />
+        </Style>
+        <Style x:Key="TextBoxSelected" TargetType="TextBox" BasedOn="{StaticResource TextBoxBlank}">
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+        <Style x:Key="TextBoxEdited" TargetType="TextBox">
+            <Setter Property="Margin" Value="5,5,0,0"/>
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+<!--******************************************************************************-->
+        <!--BUTTON-->
+        <!-- PageButtonStyle-->
+        <Style x:Key="PageButtonPartlyEdited" TargetType="Button">
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="Height" Value="200"></Setter>
+            <Setter Property="Margin" Value="20,0,0,10"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="Background" Value="{StaticResource PhoneAccentBrush}"></Setter>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="35"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+             
+        </Style>
+        <Style x:Key="PageButtonDisabled" TargetType="Button"  BasedOn="{StaticResource PageButtonPartlyEdited}">
+        </Style>
+        <Style x:Key="PageButtonFullyEdited" TargetType="Button"  BasedOn="{StaticResource PageButtonPartlyEdited}">
+            
+            
+        </Style>
+ 
+
+        <!--******************************************************************************-->
+        <!--IMAGE -->
+        <Style x:Key="PreviewImage" TargetType="Image">
+           <Setter Property="Height" Value="150"/>
+           <Setter Property="Width" Value="200"/>
+           <Setter Property="Stretch" Value="Fill"/>
+           <Setter Property="Margin" Value="50,5,0,0"/>
+           <Setter Property="IsHitTestVisible" Value="True"/>
+           <Setter Property="HorizontalAlignment" Value="Left"/>
+       </Style>
+       <Style x:Key="MapImage" TargetType="Image">
+           <Setter Property="Stretch" Value="Uniform"/>
+           <Setter Property="Margin" Value="0,20,10,0"/>
+           <Setter Property="IsHitTestVisible" Value="True"/>
+           <Setter Property="HorizontalAlignment" Value="Left"/>
+       </Style>
+
+        <Style x:Key="DamageCanvas" TargetType="Canvas">
+            <Setter Property="Width" Value="400"></Setter>
+            <Setter Property="Height" Value="300"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style x:Key="DamagePoint" TargetType="Ellipse">
+            <Setter Property="Width" Value="50"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="Fill" Value="{StaticResource PhoneAccentBrush}"></Setter>
+            <Setter Property="Opacity" Value="0.8"></Setter>
+        </Style>
+        <Style x:Key="DamageBorder" TargetType="Border">
+            <Setter Property="Width" Value="400"></Setter>
+            <Setter Property="Height" Value="300"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="Margin" Value="15,20,10,0"/>
+        </Style>
+        <Style x:Key="NoteSelected" TargetType="TextBox">
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="White"></Setter>
+        </Style>
+        <Style x:Key="NoteEdited" TargetType="TextBlock" BasedOn="{StaticResource Note}">
+            <Setter Property="Margin" Value="0,0,0,0"/>
+            <Setter Property="FontFamily" Value="Segoe WP"/>
+            <Setter Property="TextAlignment" Value="Right" />
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <!--Style für die Übersichtsauflistung gesetzt-->
+        <!--weiß; Größe 20 und eingerückt)-->
+        <Style x:Key="ShortHeaderRight" TargetType="TextBlock" BasedOn="{StaticResource Fact}">
+            <Setter Property="Margin" Value="20,0,0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="ShortHeaderLeft" TargetType="TextBlock" BasedOn="{StaticResource ShortHeaderRight}">
+            <Setter Property="Margin" Value="50,0,0,0"/>
+        </Style>
+        
+        <SolidColorBrush x:Key="ColorShortHeaderEdited" Color="DarkGray"/>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Erforderliches Objekt, das Lebensdauerereignisse der Anwendung behandelt-->
+        <shell:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

@@ -1,0 +1,26 @@
+C:\Users\sergeyb\Documents\Visual Studio 2010\Projects\WPControls\WPControls\WPControls\Bin\Debug\WPControls.XML
+C:\Users\sergeyb\Documents\Visual Studio 2010\Projects\WPControls\WPControls\WPControls\Bin\Debug\WPControls.dll
+C:\Users\sergeyb\Documents\Visual Studio 2010\Projects\WPControls\WPControls\WPControls\Bin\Debug\WPControls.pdb
+C:\Users\sergeyb\Documents\Visual Studio 2010\Projects\WPControls\WPControls\WPControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sergeyb\Documents\Visual Studio 2010\Projects\WPControls\WPControls\WPControls\obj\Debug\WPControls.g.resources
+C:\Users\sergeyb\Documents\Visual Studio 2010\Projects\WPControls\WPControls\WPControls\obj\Debug\WPControls.dll
+C:\Users\sergeyb\Documents\Visual Studio 2010\Projects\WPControls\WPControls\WPControls\obj\Debug\WPControls.pdb
+C:\Users\User\Desktop\WP7Calender\WPControls\Bin\Debug\WPControls.XML
+C:\Users\User\Desktop\WP7Calender\WPControls\Bin\Debug\WPControls.dll
+C:\Users\User\Desktop\WP7Calender\WPControls\Bin\Debug\WPControls.pdb
+C:\Users\User\Desktop\WP7Calender\WPControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Desktop\WP7Calender\WPControls\obj\Debug\WPControls.g.resources
+C:\Users\User\Desktop\WP7Calender\WPControls\obj\Debug\WPControls.dll
+C:\Users\User\Desktop\WP7Calender\WPControls\obj\Debug\WPControls.pdb
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\WPControls\Bin\Debug\WPControls.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\WPControls\Bin\Debug\WPControls.pdb
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\WPControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\WPControls\obj\Debug\WPControls.g.resources
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\WPControls\obj\Debug\WPControls.dll
+C:\Users\Nicole\Uni\Studium\Master\INF-VMI-6\autotausch\WPControls\obj\Debug\WPControls.pdb
+D:\Studium\WS11\VizKP\WPControls\Bin\Debug\WPControls.dll
+D:\Studium\WS11\VizKP\WPControls\Bin\Debug\WPControls.pdb
+D:\Studium\WS11\VizKP\WPControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Studium\WS11\VizKP\WPControls\obj\Debug\WPControls.g.resources
+D:\Studium\WS11\VizKP\WPControls\obj\Debug\WPControls.dll
+D:\Studium\WS11\VizKP\WPControls\obj\Debug\WPControls.pdb

@@ -1,0 +1,100 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="AutotauschApp.record_data"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+    <!--LayoutRoot enthält das Stammraster, in dem alle anderen Seiteninhalte platziert werden-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Daten">
+
+            <!--Panoramaelement eins-->
+            <controls:PanoramaItem Header="Daten">
+                <ScrollViewer>
+                <StackPanel Margin="0,0,0,17">
+                    <TextBlock Text="Personalien" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="Herr Hubert Müller" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Liebstädter Strasse 5" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="01277 Dresden" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Telefon: 0351/42010" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+
+                    <TextBlock Text="Auto" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="Volvo S80" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBox Text="Farbe:" Style="{StaticResource TextBoxBlank}" />
+                        <TextBox Text="amtl. Kennz:" Style="{StaticResource TextBoxBlank}" />
+                        <TextBox Text="Fahrgestellnummer:" Style="{StaticResource TextBoxBlank}" />
+                        <TextBox Text="Tag der EZ:" Style="{StaticResource TextBoxBlank}" />
+                        <TextBox Text="ccm:" Style="{StaticResource TextBoxBlank}" />
+                        <TextBox Text="Anzahl Schlüssel:" Style="{StaticResource TextBoxBlank}" />
+                        <CheckBox Content="Service fällig" Style="{StaticResource CheckBoxBlank}"/>
+                    
+                    <TextBlock Text="weitere Fahrzeugsunterlagen" Style="{StaticResource Subheader}"/>
+                        <CheckBox Content="Fahrzeugsschein" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Servicemappe" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Verbandskasten" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Warndreieck" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Warnweste" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="Betriebsanleitung" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Kundendienstcheckheft" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Versicherungskarte" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Händlerverzeichnis" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="CD/ DVD - Navigation" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="2. Satz Reifen" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="mit Felgen" Style="{StaticResource CheckBoxBlank}" />
+                   
+                    <TextBlock Text="Übergabe" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="16 Dezember 2011" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="17:30Uhr" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="AUe123456" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+
+                        <CheckBox Content="Fahrzeugseinweisung erfolgt" Style="{StaticResource CheckBoxBlank}"/>
+                </StackPanel>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+            <!--Panoramaelement zwei-->
+            <controls:PanoramaItem Header="Ziel">
+                <ScrollViewer>
+                <StackPanel Margin="0,0,0,17">
+                       
+                    <TextBlock Text="Überführung" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="Autohaus Meurer GmbH" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Herr Ingo Steinbaumeister" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Schönefelder Straße 21a" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="04129 Leipzig" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Telefon 0341/919910" TextWrapping="Wrap" Style="{StaticResource OverviewEdit}"/>
+                        <TextBlock Text="Abgabe: 12Uhr" Style="{StaticResource OverviewEdit}"/>
+                </StackPanel>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+            
+            <!--Panoramaelement drei-->
+            <controls:PanoramaItem Header="Übergabe">
+                <ScrollViewer>
+                <StackPanel Margin="0,-20,0,17">
+                    <TextBlock Text="Besondere Bedingungen" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <CheckBox Content="dunkel" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="Regen" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Schnee/ Eis" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="Parkhaus" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="stark verschmutzt" Style="{StaticResource CheckBoxBlank}" />
+                        <TextBox Text="Sonstiges" Style="{StaticResource TextBoxBlank}"/>
+                </StackPanel>
+                    
+                </ScrollViewer>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panoramaanwendungen sollten keine ApplicationBar anzeigen.-->
+
+</phone:PhoneApplicationPage>

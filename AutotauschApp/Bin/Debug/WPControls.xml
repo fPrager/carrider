@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WPControls</name>
+    </assembly>
+    <members>
+        <member name="T:WPControls.ISupportCalendarItem">
+            <summary>
+            Interface that needs to be implemented in order to support DatesSource for Calendar control
+            </summary>
+        </member>
+        <member name="P:WPControls.ISupportCalendarItem.CalendarItemDate">
+            <summary>
+            Date of the calendar item
+            </summary>
+        </member>
+        <member name="T:WPControls.CalendarItem">
+            <summary>
+            This class corresponds to a calendar item / cell
+            </summary>
+        </member>
+        <member name="M:WPControls.CalendarItem.#ctor">
+            <summary>
+            Create new instance of a calendar cell
+            </summary>
+        </member>
+        <member name="M:WPControls.CalendarItem.#ctor(WPControls.Calendar)">
+            <summary>
+            Create new instance of a calendar cell
+            </summary>
+            <param name="owner">Calenda control that a cell belongs to</param>
+        </member>
+        <member name="F:WPControls.CalendarItem.DayNumberProperty">
+            <summary>
+            Day number for this calendar cell.
+            This changes depending on the month shown
+            </summary>
+        </member>
+        <member name="F:WPControls.CalendarItem.ItemDateProperty">
+            <summary>
+            Date for the calendar item
+            </summary>
+        </member>
+        <member name="M:WPControls.CalendarItem.OnApplyTemplate">
+            <summary>
+            Apply default template and perform initialization
+            </summary>
+        </member>
+        <member name="P:WPControls.CalendarItem.DayNumber">
+            <summary>
+            Day number for this calendar cell.
+            This changes depending on the month shown
+            </summary>
+        </member>
+        <member name="P:WPControls.CalendarItem.ItemDate">
+            <summary>
+            Date for the calendar item
+            </summary>
+        </member>
+        <member name="T:WPControls.Calendar">
+            <summary>
+            Calendar control for Windows Phone 7
+            </summary>
+        </member>
+        <member name="M:WPControls.Calendar.#ctor">
+            <summary>
+            Create new instance of a calendar
+            </summary>
+        </member>
+        <member name="M:WPControls.Calendar.OnMonthChanging(System.Int32,System.Int32)">
+            <summary>
+            Raises MonthChanging event
+            </summary>
+            <param name="year">Year for event arguments</param>
+            <param name="month">Month for event arguments</param>
+        </member>
+        <member name="M:WPControls.Calendar.OnMonthChanged(System.Int32,System.Int32)">
+            <summary>
+            Raises MonthChanged event
+            </summary>
+            <param name="year">Year for event arguments</param>
+            <param name="month">Month for event arguments</param>
+        </member>
+        <member name="M:WPControls.Calendar.Refresh">
+            <summary>
+            Explicitly refresh the calendar
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.DatesSourceProperty">
+            <summary>
+            Collection of objects containing dates
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.DatePropertyNameForDatesSourceProperty">
+            <summary>
+            Property name for each object in DatesSource that contains the date to be evaluating 
+            when building a calendar
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.CalendarItemStyleProperty">
+            <summary>
+            Style for the calendar item
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.CalendarWeekItemStyleStyleProperty">
+            <summary>
+            Style for the calendar item
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.YearMonthLabelProperty">
+            <summary>
+            This value is shown in calendar header and includes month and year
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.SelectedDateProperty">
+            <summary>
+            This value currently selected date on the calendar
+            This property can be bound to
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.ColorConverterProperty">
+            <summary>
+            This converter is used to dynamically color the background of a calendar cell
+            based on date and the fact that a date is selected
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.SelectedYearProperty">
+            <summary>
+            Currently selected year
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.SelectedMonthProperty">
+            <summary>
+            Currently selected month
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.ShowNavigationButtonsProperty">
+            <summary>
+            If true, previous and next month buttons are shown
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.EnableGesturesProperty">
+            <summary>
+            If true, gesture support is enabled
+            </summary>
+        </member>
+        <member name="M:WPControls.Calendar.OnEnableGesturesChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handle changes to gesture support
+            </summary>
+            <param name="sender">Calendar control</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="F:WPControls.Calendar.ShowSelectedDateProperty">
+            <summary>
+            If set to false, selected date is not highlighted
+            </summary>
+        </member>
+        <member name="F:WPControls.Calendar.WeekNumberDisplayProperty">
+            <summary>
+            If set to false, selected date is not highlighted
+            </summary>
+        </member>
+        <member name="M:WPControls.Calendar.OnWeekNumberDisplayChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Update calendar display when display option changes
+            </summary>
+            <param name="sender">Calendar control</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:WPControls.Calendar.OnApplyTemplate">
+            <summary>
+            Apply default template and perform initialization
+            </summary>
+        </member>
+        <member name="E:WPControls.Calendar.MonthChanging">
+            <summary>
+            Event that occurs before month/year combination is changed
+            </summary>
+        </member>
+        <member name="E:WPControls.Calendar.MonthChanged">
+            <summary>
+            Event that occurs after month/year combination is changed
+            </summary>
+        </member>
+        <member name="E:WPControls.Calendar.SelectionChanged">
+            <summary>
+            Event that occurs after a date is selected on the calendar
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.DatesSource">
+            <summary>
+            Collection of objects containing dates
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.CalendarItemStyle">
+            <summary>
+            Style for the calendar item
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.CalendarWeekItemStyle">
+            <summary>
+            Style for the calendar item
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.YearMonthLabel">
+            <summary>
+            This value is shown in calendar header and includes month and year
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.SelectedDate">
+            <summary>
+            This value currently selected date on the calendar
+            This property can be bound to
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.ColorConverter">
+            <summary>
+            This converter is used to dynamically color the background or day number of a calendar cell
+            based on date and the fact that a date is selected and type of conversion
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.SelectedYear">
+            <summary>
+            Currently selected year
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.SelectedMonth">
+            <summary>
+            Currently selected month
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.ShowNavigationButtons">
+            <summary>
+            If true, previous and next month buttons are shown
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.EnableGestures">
+            <summary>
+            If true, gesture support is enabled
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.ShowSelectedDate">
+            <summary>
+            If set to false, selected date is not highlighted
+            </summary>
+        </member>
+        <member name="P:WPControls.Calendar.WeekNumberDisplay">
+            <summary>
+            Sets an option of how to display week number
+            </summary>
+        </member>
+        <member name="T:WPControls.BooleanToVisibilityConverter">
+            <summary>
+            Converter that converts Boolean to visibility flag
+            </summary>
+        </member>
+        <member name="M:WPControls.BooleanToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            If value is true, returns Visibility.Visible, else Visibility.Collapsed
+            </summary>
+            <param name="value">Value to convert</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">Optional parameter</param>
+            <param name="culture">Current culture</param>
+            <returns>Visibility value</returns>
+        </member>
+        <member name="M:WPControls.BooleanToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Not implemented
+            </summary>
+            <param name="value">Value to convert</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">Optional parameter</param>
+            <param name="culture">Current culture</param>
+            <returns>Not implemented</returns>
+        </member>
+        <member name="T:WPControls.IDateToBrushConverter">
+            <summary>
+            This converter can be used to control day number color and background color
+            for each day
+            </summary>
+        </member>
+        <member name="M:WPControls.IDateToBrushConverter.Convert(System.DateTime,System.Boolean,System.Windows.Media.Brush,WPControls.BrushType)">
+            <summary>
+            Perform conversion of a date to color
+            This can be used to color a cell based on a date passed it
+            </summary>
+            <param name="dateTime">Date for the calendar cell</param>
+            <param name="isSelected">Indicates if a date is selected by the user</param>
+            <param name="defaultValue">Brush that will be used by default
+            if the converter did not exists
+            </param>
+            <param name="brushType">Type of conversion to perform - foreground or background</param>
+            <returns>New Brush to color day number or calendar cell background</returns>
+        </member>
+        <member name="T:WPControls.BrushType">
+            <summary>
+            Type of brush to driver color converter
+            </summary>
+        </member>
+        <member name="F:WPControls.BrushType.Background">
+            <summary>
+            Calendar item background conversion
+            </summary>
+        </member>
+        <member name="F:WPControls.BrushType.Foreground">
+            <summary>
+            Day number of calendar item
+            </summary>
+        </member>
+        <member name="T:WPControls.MonthChangedEventArgs">
+            <summary>
+            Event arguments used for MonthChanging and MonthChanged events of the calendar
+            </summary>
+        </member>
+        <member name="P:WPControls.MonthChangedEventArgs.Year">
+            <summary>
+            Year for newly selected month/year combination
+            </summary>
+        </member>
+        <member name="P:WPControls.MonthChangedEventArgs.Month">
+            <summary>
+            Month for newly selected month/year combination
+            </summary>
+        </member>
+        <member name="T:WPControls.CalendarWeekItem">
+            <summary>
+            Class representing week number cell
+            </summary>
+        </member>
+        <member name="M:WPControls.CalendarWeekItem.#ctor">
+            <summary>
+            Create new instance of a calendar week number cell
+            </summary>
+        </member>
+        <member name="F:WPControls.CalendarWeekItem.WeekNumberProperty">
+            <summary>
+            Day number for this calendar cell.
+            This changes depending on the month shown
+            </summary>
+        </member>
+        <member name="P:WPControls.CalendarWeekItem.WeekNumber">
+            <summary>
+            Day number for this calendar cell.
+            This changes depending on the month shown
+            </summary>
+        </member>
+        <member name="T:WPControls.WeekNumberDisplayOption">
+            <summary>
+            Option of how to display week numbers in the calendar
+            </summary>
+        </member>
+        <member name="F:WPControls.WeekNumberDisplayOption.None">
+            <summary>
+            Do not show week number
+            </summary>
+        </member>
+        <member name="F:WPControls.WeekNumberDisplayOption.WeekOfYear">
+            <summary>
+            Show week number starting with start of the year
+            </summary>
+        </member>
+        <member name="F:WPControls.WeekNumberDisplayOption.WeekOfMonth">
+            <summary>
+            Show week number starting with start of month
+            </summary>
+        </member>
+    </members>
+</doc>

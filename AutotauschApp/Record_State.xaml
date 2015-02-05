@@ -1,0 +1,123 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="AutotauschApp.state"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+  
+    <!--LayoutRoot enthält das Stammraster, in dem alle anderen Seiteninhalte platziert werden-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Zustand">
+
+            <!--Panoramaelement eins-->
+            <controls:PanoramaItem Header="Außen">
+                <ScrollViewer>
+                <StackPanel Margin="0,0,0,17">
+                        <TextBlock Text="Fahrzeugzustand" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <toolkit:ListPicker SelectionMode="Single" Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="sehr gepflegt" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="durchschnittlich" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="ungepflegt" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="stark verschmuzt" Style="{StaticResource ListFact}"></TextBlock>
+                    </toolkit:ListPicker>
+                    
+                    <TextBlock Text="" Style="{StaticResource EmptyLine}"/>
+                    <TextBlock Text="Beschädigung" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <CheckBox Content="Steinschläge" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="Kratzer" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Beule(n)" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="Rost" Style="{StaticResource CheckBoxBlank}"/>
+                    <TextBlock Text="" Style="{StaticResource EmptyLine}"/>
+                   
+                    <TextBlock Text="Reifen" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                    <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="Sommerreifen" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="Winterreifen" Style="{StaticResource ListFact}"></TextBlock>
+                    </toolkit:ListPicker>
+                        <TextBox Text="Profil in mm" Style="{StaticResource TextBoxDisable}" />
+                    <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="Stahlfelge" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="Alufelge" Style="{StaticResource ListFact}"></TextBlock>
+                    </toolkit:ListPicker>
+                </StackPanel>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+            
+            <!--Panoramaelement zwei-->
+            <controls:PanoramaItem Header="Innenraum">
+                <ScrollViewer>
+                <StackPanel Margin="0,-20,0,17">
+                    <TextBlock Text="Fahrzeugzustand" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                    <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="sehr gepflegt" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="durchschnittlich" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="ungepflegt" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="stark verschmuzt" Style="{StaticResource ListFact}"></TextBlock>
+                    </toolkit:ListPicker>
+                    
+                    <TextBlock Text="" Style="{StaticResource EmptyLine}"/>
+                    <TextBlock Text="Tank" Style="{StaticResource Subheader}"/>
+                        <toolkit:ListPicker ItemsSource="{Binding}" Style="{StaticResource StupidListPickerBlank}"  GotFocus="test" SelectionChanged="test" Tap="test">
+                            <TextBlock Text="Benzin E10" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="Benzin E95" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="Diesel" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="Elektromotor" Style="{StaticResource ListFact}"></TextBlock>
+                         </toolkit:ListPicker>
+                        <toolkit:ListPicker ItemsSource="{Binding}" Style="{StaticResource StupidListPickerBlank}"  GotFocus="test" SelectionChanged="test" Tap="test">
+                            <TextBlock Text="voll" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="leer" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="halb" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="viertel" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="dreiviertel" Style="{StaticResource ListFact}"></TextBlock>
+                    </toolkit:ListPicker>
+
+                    <TextBlock Text="Kofferraum" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="sehr gepflegt" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="durchschnittlich" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="ungepflegt" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="stark verschmuzt" Style="{StaticResource ListFact}"></TextBlock>
+                    </toolkit:ListPicker>
+                    
+                    <TextBlock Text="" Style="{StaticResource EmptyLine}"/>
+                    <TextBlock Text="Beschädigung" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <CheckBox Content="Sitze" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="Amaturenbrett" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Türverkleidung" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Himmel" Style="{StaticResource CheckBoxBlank}" Background="White" BorderBrush="White" BorderThickness="1"/>
+                    <TextBlock Text="" Style="{StaticResource EmptyLine}"/>
+                        <TextBlock Text="Amatur" Style="{StaticResource Subheader}"/>
+                        <CheckBox Content="Kratzer" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="Verschmutzungen" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="Umbauten" Style="{StaticResource CheckBoxBlank}" />
+                        <TextBox Text="km-Stand: " TextWrapping="Wrap" Style="{StaticResource TextBoxDisable}"/>
+                        <TextBox Text="Sonstiges" Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Lenkrad: " TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="sehr gepflegt" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="durchschnittlich" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="ungepflegt" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="stark verschmuzt" Style="{StaticResource ListFact}"></TextBlock>
+                        </toolkit:ListPicker>
+                        <CheckBox Content="Kratzer" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="Verschmutzungen" Style="{StaticResource CheckBoxBlank}" />
+
+                    </StackPanel>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panoramaanwendungen sollten keine ApplicationBar anzeigen.-->
+
+</phone:PhoneApplicationPage>

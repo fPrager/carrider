@@ -1,0 +1,191 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="AutotauschApp.record_crash"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+ xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot enthält das Stammraster, in dem alle anderen Seiteninhalte platziert werden-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Unfallbericht">
+
+            <!--Panoramaelement eins-->
+            <controls:PanoramaItem Header="Daten">
+                <ScrollViewer>
+                    <StackPanel Margin="0,0,0,17">
+                        <TextBlock Text="KEINE Schuldanerkenntnis, sonder Wiedergabe des Unfallhergangs" TextWrapping="Wrap" Style="{StaticResource Fact}"/>
+                        <TextBlock Text="" Style="{StaticResource EmptyLine}" />
+                        <TextBox Text="Datum:" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Uhrzeit" Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Verletzte" Style="{StaticResource Subheader}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="ja" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="nein" Style="{StaticResource ListFact}"></TextBlock>
+                        </toolkit:ListPicker>
+                        <TextBlock Text="andere Sachschäden" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="als an der Fahrzeugen A und B" Style="{StaticResource Note}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="ja" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="nein" Style="{StaticResource ListFact}"></TextBlock>
+                        </toolkit:ListPicker>
+                        <TextBlock Text="Zeuge(n)" Style="{StaticResource Subheader}"/>
+                        <TextBox Text="Vorname" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Name" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Adresse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Telefon" Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Zeuge 1" Style="{StaticResource Note}"/>
+                        <TextBox Text="Vorname" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Name" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Adresse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Telefon" Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Zeuge 2" Style="{StaticResource Note}"/>
+                        <TextBox Text="Vorname" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Name" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Adresse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Telefon" Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Zeuge 3" Style="{StaticResource Note}"/>
+                        
+                    </StackPanel>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+            <!--Panoramaelement zwei-->
+            <controls:PanoramaItem Header="Fahrzeug A">
+                <ScrollViewer>
+                    <StackPanel Margin="0,0,0,17">
+                        <TextBlock Text="Versicherungsnehmer A" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBox Text="Vorname" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Name" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Adresse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="PLZ | Ort" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Telefon" Style="{StaticResource TextBoxDisable}" />
+
+                        <TextBlock Text="Fahrzeug" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBox Text="Marke | Typ" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="amtl Kennz." Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Versicherer" Style="{StaticResource Subheader}"/>
+                       
+                        <TextBox Text="Name der Gesellschaft" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Vers. Nr:" Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Vollkaskoversicherung?" Style="{StaticResource Fact}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="ja" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="nein" Style="{StaticResource ListFact}"></TextBlock>
+                        </toolkit:ListPicker>
+                        
+                        <TextBlock Text="Fahrzeuglenker" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="Fahrzeuglenker ist Versicherungsnehmer?" Style="{StaticResource Fact}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="nein" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="ja" Style="{StaticResource ListFact}"></TextBlock>
+                        </toolkit:ListPicker>
+                        <TextBox Text="Vorname" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Name" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Adresse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="PLZ | Ort" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Führerschein-Nr:" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Klasse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="ausgestellt durch" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="gültig ab" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="gültig bis" Style="{StaticResource TextBoxDisable}" />
+                        
+                        <TextBlock Text="Beschädigung" Style="{StaticResource Subheader}" />
+                        <Button>Aufnahme</Button>
+                        <TextBlock Text="Fotoaufnahme der Beschädigung" Style="{StaticResource Note}" />
+                        <TextBox Text="Bemerkungen" Style="{StaticResource TextBoxDisable}" />
+
+
+                        <TextBlock Text="Fahrzeug" Style="{StaticResource Subheader}"/>
+                        <CheckBox Content="war abgestellt" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="fuhr an" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="hielt an" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="fuhr auf" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="überholte" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="bog rechts ab" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="bog links ab" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="fuhr rückwärts" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="wechselte die Spur" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="beachtete Vorfahrtszeichen nicht" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="bog in den Kreisverkehr" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="kam aus den kreisverkehr" Style="{StaticResource CheckBoxBlank}"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+
+            <!--Panoramaelement drei-->
+            <controls:PanoramaItem Header="Fahrzeug B">
+                <ScrollViewer>
+                    <StackPanel Margin="0,0,0,17">
+                        <TextBlock Text="Versicherungsnehmer A" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBox Text="Vorname" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Name" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Adresse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="PLZ | Ort" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Telefon" Style="{StaticResource TextBoxDisable}" />
+
+                        <TextBlock Text="Fahrzeug" TextWrapping="Wrap" Style="{StaticResource Subheader}"/>
+                        <TextBox Text="Marke | Typ" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="amtl Kennz." Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Versicherer" Style="{StaticResource Subheader}"/>
+
+                        <TextBox Text="Name der Gesellschaft" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Vers. Nr:" Style="{StaticResource TextBoxDisable}" />
+                        <TextBlock Text="Vollkaskoversicherung?" Style="{StaticResource Fact}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="ja" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="nein" Style="{StaticResource ListFact}"></TextBlock>
+                        </toolkit:ListPicker>
+
+                        <TextBlock Text="Fahrzeuglenker" Style="{StaticResource Subheader}"/>
+                        <TextBlock Text="Fahrzeuglenker ist Versicherungsnehmer?" Style="{StaticResource Fact}"/>
+                        <toolkit:ListPicker Style="{StaticResource StupidListPickerBlank}">
+                            <TextBlock Text="nein" Style="{StaticResource ListFact}"></TextBlock>
+                            <TextBlock Text="ja" Style="{StaticResource ListFact}"></TextBlock>
+                        </toolkit:ListPicker>
+                        <TextBox Text="Vorname" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Name" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Adresse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="PLZ | Ort" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Führerschein-Nr:" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="Klasse" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="ausgestellt durch" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="gültig ab" Style="{StaticResource TextBoxDisable}" />
+                        <TextBox Text="gültig bis" Style="{StaticResource TextBoxDisable}" />
+
+                        <TextBlock Text="Beschädigung" Style="{StaticResource Subheader}" />
+                        <Button>Aufnahme</Button>
+                        <TextBlock Text="Fotoaufnahme der Beschädigung" Style="{StaticResource Note}" />
+                        <TextBox Text="Bemerkungen" Style="{StaticResource TextBoxDisable}" />
+
+
+                        <TextBlock Text="Fahrzeug" Style="{StaticResource Subheader}"/>
+                        <CheckBox Content="war abgestellt" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="fuhr an" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="hielt an" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="fuhr auf" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="überholte" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="bog rechts ab" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="bog links ab" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="fuhr rückwärts" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="wechselte die Spur" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="beachtete Vorfahrtszeichen nicht" Style="{StaticResource CheckBoxBlank}"/>
+                        <CheckBox Content="bog in den Kreisverkehr" Style="{StaticResource CheckBoxBlank}" />
+                        <CheckBox Content="kam aus den kreisverkehr" Style="{StaticResource CheckBoxBlank}"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panoramaanwendungen sollten keine ApplicationBar anzeigen.-->
+
+</phone:PhoneApplicationPage>

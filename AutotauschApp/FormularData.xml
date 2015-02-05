@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GivingForm>
+  <Variant Number="0">
+<Data Type="FormPage">
+  <Person Type="FormularPart" Header="Persondaten">
+    <Name Type="EditBox">Nachname</Name>
+    <Surname Type="EditBox">Vorname</Surname>
+    <Street Type="EditBox">Straße</Street>
+    <City Type="EditBox">Stadt</City>
+    <Postcode Type="EditBox">Postleitzahl</Postcode>
+    <Phonenumber Type="EditBox">Telefonnummer</Phonenumber>
+  </Person>
+  
+  <CarFacts Type="FormularType" Header="Fahrzeugdaten">
+    <Producer Type="ListPicker">Hersteller</Producer>
+    <Model Type="ListPicker">Modell</Model>
+    <LicensePlate Type="EditBox">Kennzeichen</LicensePlate>
+    <VehicleIdentificationNumber Type="EditBox">Fahrgestellnummer</VehicleIdentificationNumber>
+  </CarFacts>
+</Data>
+  
+<State Type="FormPage">
+  <GivingState Type="FormularPart" Header="Rückgabezeitpunkt">
+    <Date Tye="DatePicker">Datum</Date>
+    <Time Type="timePicker">Zeit</Time>
+    <Mileage Type="Editbox">km-Stand</Mileage>
+  </GivingState>
+
+  <CarState Type="FormularPart" Header="Fahrzeugzustand">
+    <OuterState Type="CheckBoxList">Fahrzeugzustand außen</OuterState>
+    <InnerState Type="CheckBoxList">Fahrzeugzustand außen</InnerState>
+    <InnerDamage Type="CheckBoxList">Beschädigung innen</InnerDamage>
+    <Equipment Type="CheckBoxList">Zubehör</Equipment>
+  </CarState>
+  <Tyres Type="FormularPart" Header="Bereifung">
+    <TyresType Type="ListPicker">Reifentyp</TyresType>
+    <Tread Type="EditBox">Profil</Tread>
+    <Rim Type="ListPicker">Felgen</Rim>
+  </Tyres>
+  <Tyres Type="FormularPart" Header="Bereifung">
+    <TyresType Type="ListPicker">Reifentyp</TyresType>
+    <Tread Type="EditBox">Profil</Tread>
+    <Rim Type="ListPicker">Felgen</Rim>
+  </Tyres>
+</State>
+</Variant>
+</GivingForm>

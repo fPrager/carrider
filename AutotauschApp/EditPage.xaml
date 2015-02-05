@@ -1,0 +1,73 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="AutotauschApp.EditPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot enthält das Stammraster, in dem alle anderen Seiteninhalte platziert werden-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Daten" Name="FormPanorama">
+
+            <!--Panoramaelement eins-->
+            <controls:PanoramaItem Name="Dummy1" Visibility="Visible">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy2" Visibility="Collapsed">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy3" Visibility="Collapsed">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy4" Visibility="Collapsed">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy5" Visibility="Collapsed">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy6" Visibility="Collapsed">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy7" Visibility="Collapsed">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy8" Visibility="Collapsed">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy9" Visibility="Collapsed">
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Name="Dummy10" Visibility="Collapsed">
+            </controls:PanoramaItem>
+        </controls:Panorama>
+        <Canvas Name="DrawPlane">
+            <Canvas.Resources>
+                <Storyboard x:Name="showOpenPoint">
+                    <DoubleAnimation
+                    Storyboard.TargetName="OpenPoint" 
+                    Storyboard.TargetProperty="Opacity" 
+                    From="0" 
+                    To="1" 
+                    Duration="0:0:0.2"/>
+                </Storyboard>
+                <Storyboard x:Name="hideOpenPoint">
+                    <DoubleAnimation 
+                    Storyboard.TargetName="OpenPoint" 
+                    Storyboard.TargetProperty="Opacity" 
+                    From="1" 
+                    To="0" 
+                    Duration="0:0:0.2"/>
+                </Storyboard>
+            </Canvas.Resources>
+             <Image Name="leftSide" Source="/AppBarIcons/appbar.back.rest.png" Opacity="0" Width="30" Height="30"></Image>
+            <Image Name="rightSide" Source="/AppBarIcons/appbar.next.rest.png" Opacity="0" Width="30" Height="30"></Image>
+            <Image Name="upSide" Source="/AppBarIcons/appbar.up.rest.png" Opacity="0" Width="30" Height="30"></Image>
+            <Image Name="downSide" Source="/AppBarIcons/appbar.down.rest.png" Opacity="0" Width="30" Height="30"></Image>
+            <Ellipse Fill="{StaticResource PhoneAccentBrush}" Width="30" Height="30" Opacity="0" Name="OpenPoint" Canvas.Left="0" Canvas.Top="0"></Ellipse>
+            <Image Name="OpenPointQuestionMark" Source="/AppBarIcons/appbar.questionmark.rest.png" Opacity="{Binding ElementName=OpenPoint,Path=Opacity}" Width="{Binding ElementName=OpenPoint,Path=Width}" Height="{Binding ElementName=OpenPoint,Path=Height}" ></Image>
+        </Canvas>
+    </Grid>
+
+    <!--Panoramaanwendungen sollten keine ApplicationBar anzeigen.-->
+
+</phone:PhoneApplicationPage>
